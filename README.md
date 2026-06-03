@@ -1,3 +1,5 @@
+# Enviar vídeo com o projeto explicando a aplicação, motivações e utilização de conteúdos das aulas, conjuntamente com o repo do github para: pedromatumoto@gmail.com 
+
 # IA na Prática: Do Zero à Automação Corporativa
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
