@@ -1,8 +1,6 @@
 <div align="center">
 
-
-
-# Arquitetura de sistemas reais com IA 
+# Arquitetura de sistemas reais com IA
 ### *Introdução!*
 
 <br>
@@ -10,19 +8,18 @@
 **Slides:**
 `github.com/pedromatumoto/ia-na-pratica`
 
-
 </div>
 
 ---
 
 ## Quem sou eu?
 
-**Pedro Matumoto (ou só Matumoto mesmo)**
+**Pedro Matumoto**
 * Engenheiro de Computação recém-formado pelo Instituto Mauá de Tecnologia com minor de Bioengenharia
 * **Background:** Fiz parte da Mauá JR, Kimauanisso, dei monitoria de projetos também! Pra fechar, fiz um TCC sobre robótica autônoma doméstica.
-* Hoje em dia trabalho com engenharia de software e IA de grandes quantidades de dados, mas sou apaixonado por robótica.
+* Hoje em dia trabalho com engenharia e arquitetura de software e IA com grandes quantidades de dados, mas sou apaixonado por robótica.
 * **Foco atual:** Arquitetura de Software, Inteligência Artificial e Machine Learning.
-  
+
 <figure style="text-align: center;">
     <img width="350"  alt="qr-code_linkedin" src="https://github.com/user-attachments/assets/548643cf-bc54-4b26-8c69-db266309c5ed" />
 </figure>
@@ -37,14 +34,14 @@
 Usar a interface web é fácil. Mas para poder utilizar em **sistemas reais** isso não basta. Como nós transformamos essa tecnologia e construímos algo robusto? Como um sistema corporativo usa IA sem expor dados e sem custar uma fortuna?
 
 **O objetivo do curso:**
-1. Tirar a "magia" da Inteligência Artificial.
+1. Mostrar que IA não é só ficar usando chat na Web.
 2. Entender os limites técnicos das APIs de LLM.
 3. Aprender a arquitetar sistemas reais ao redor desses modelos.
 
 ---
 ## 1. A Lente da IA: Como as máquinas enxergam o mundo?
 
-Antes de falarmos de ChatGPT e texto, precisamos entender uma regra fundamental: **toda IA é, no fundo, um tradutor matemático**. 
+Antes de falarmos de ChatGPT e texto, precisamos entender uma regra fundamental: **toda IA é, no fundo, um tradutor matemático**.
 
 * O mundo real é analógico, contínuo e cheio de nuances.
 * O mundo da IA é discreto, finito e estritamente **numérico**.
@@ -58,7 +55,7 @@ Para uma IA entender qualquer coisa, nós precisamos primeiro converter o mundo 
 Dependendo do problema que queremos resolver, construímos "olhos" diferentes para a máquina:
 
 * **Visão Computacional (Robótica / Carros Autônomos):** A IA não vê um semáforo ou um pedestre. Ela enxerga tensores — grades tridimensionais de pixels (matrizes de cores RGB) e busca padrões numéricos de contraste que formam bordas.
-* **Séries Temporais (Machine Learning Tradicional):** Pensem nos dados de um motor de carro. Para prever uma falha ou otimizar um sistema, a IA enxerga o mundo como um fluxo contínuo de arrays numéricos (velocidade, temperatura, aceleração) ao longo do tempo.
+* **Séries Temporais (Machine Learning Tradicional):** Pensem nos dados de um motor de carro, ou de qualquer planta industrial. Para prever uma falha ou otimizar um sistema, a IA enxerga o mundo como um fluxo contínuo de arrays numéricos (velocidade, temperatura, aceleração) ao longo do tempo — o mesmo tipo de sinal que vocês de Automação já monitoram em malhas de controle.
 
 <figure style="display:flex; gap:20px; justify-content:center;">
 
@@ -74,14 +71,13 @@ Dependendo do problema que queremos resolver, construímos "olhos" diferentes pa
 
 </figure>
 
-
 ---
 
 ## 3. E a Linguagem Humana?
 
 Nós sabemos traduzir a foto de um cachorro em pixels. Sabemos traduzir o motor de um carro em dados numéricos. **Mas como transformamos "ideias", "sarcasmo" e "conversa" em matemática?**
 
-É exatamente para resolver esse problema que nasceram os **LLMs (Large Language Models)**
+É exatamente para resolver esse problema que nasceram os **LLMs (Large Language Models)**.
 
 ---
 
@@ -89,13 +85,15 @@ Nós sabemos traduzir a foto de um cachorro em pixels. Sabemos traduzir o motor 
 
 * LLMs (Large Language Models) são, na sua essência, motores de probabilidade.
 * Eles recebem um texto (Prompt) e preveem a próxima palavra (Token).
-* **O segredo:** Para o modelo, o universo inteiro nasce e morre a cada requisição.
+* Em uma conversa, não existe memória verdadeira como a humana. A LLM sempre tem que retomar o contexto inteiro.
+
+*(Token = pedaço de palavra ou palavra inteira; é a "unidade" que o modelo processa e paga por vez — vamos voltar nisso mais pra frente.)*
 
 ---
 
 ## 5. O Paradigma Stateless (Sem Estado)
 
-Assim como o protocolo HTTP original, as APIs de LLM são **Stateless**.
+Assim como o protocolo HTTP original (o "idioma" que seu navegador usa pra conversar com sites), as APIs de LLM são **Stateless**.
 
 * **O que isso significa?** A requisição 2 não sabe absolutamente nada sobre a requisição 1.
 * Não existe "memória" nativa no servidor do modelo.
@@ -109,17 +107,17 @@ sequenceDiagram
     App->>LLM: 1. "Oi, meu nome é João"
     LLM-->>App: "Olá, João!"
     Note over LLM: O servidor apaga tudo da memória
-    
+
     App->>LLM: 2. "Qual o meu nome?"
     LLM-->>App: "Desculpe, não sei quem é você."
 ```
 
 ---
 
-## 6. Arquitetura Puramente Stateless
+## 6. Porque funciona assim?
 
 **Vantagens:**
-* Altamente escalável (fácil balanceamento de carga).
+* Altamente escalável (fácil balanceamento de carga — distribuir requisições entre vários servidores, já que nenhum precisa "lembrar" de nada).
 * Menor uso de recursos no servidor.
 * Previsibilidade: a mesma entrada tende a gerar saídas muito similares.
 
@@ -135,6 +133,7 @@ Se o modelo não tem memória, como o ChatGPT lembra do meu nome?
 
 * **A resposta:** A interface do usuário (o cliente ou o backend da sua aplicação) é quem gerencia o estado.
 * Nós reenviamos o histórico da conversa a cada nova mensagem.
+
 ```mermaid
 sequenceDiagram
     participant App as Sua Aplicação
@@ -142,24 +141,27 @@ sequenceDiagram
 
     App->>LLM: [User: "Oi, sou João"]
     LLM-->>App: "Olá, João!"
-    
+
     App->>LLM: [User: "Oi, sou João", Assist: "Olá", User: "Qual meu nome?"]
     LLM-->>App: "Seu nome é João!"
 ```
+
 ---
-## Qual é o grande problema arquitetural de reenviar o histórico inteiro a cada mensagem?
+## 🤔 Pergunta pra vocês
+
+**Qual é o grande problema arquitetural de reenviar o histórico inteiro a cada mensagem?**
 
 ---
 
 ## 8. O Custo do Contexto e a Janela de Tokens
 
-* **Tokens:** A unidade de medida do LLM (aprox. 3/4 de uma palavra).
-* **Janela de Contexto (Context Window):** O limite máximo de tokens que o modelo consegue processar de uma vez (ex: 8k, 128k, 1M, 2M).
+* **Tokens:** a unidade de medida do LLM — pedaços de palavras que o modelo lê e gera.
+* **Janela de Contexto (Context Window):** o limite máximo de tokens que o modelo consegue processar de uma vez (ex: 8k, 128k, 1M, 2M).
 
 **O Gargalo da Arquitetura:**
-1. **Financeiro:** Você paga por token enviado (Input). Históricos longos = requisições caras.
-2. **Latência:** Mais contexto = mais tempo de processamento.
-3. **Atenção:** Modelos tendem a esquecer ou ignorar informações no "meio" de contextos gigantes (Lost in the Middle).
+1. **Financeiro:** você paga por token enviado (Input). Históricos longos = requisições caras.
+2. **Latência:** mais contexto = mais tempo de processamento.
+3. **Atenção:** modelos tendem a esquecer ou ignorar informações no "meio" de contextos gigantes (*Lost in the Middle*).
 
 <figure style="text-align: center;">
   <img width="500" alt="tokenization-example" src="https://miro.medium.com/1*QVXvydRMEWTWiUP42bYBAg.png" />
@@ -170,58 +172,73 @@ sequenceDiagram
 
 ## 9. Arquiteturas para Gestão de Contexto
 
-Como arquitetos de software, não podemos apenas jogar texto infinito no modelo. Precisamos de estratégias:
-
-1. **Sliding Window:** Manter apenas as últimas *N* mensagens.
-2. **Summarization:** Usar o próprio LLM ou outras bibliotecas para resumir conversas antigas e guardar apenas o resumo.
-3. **Arquitetura Baseada em RAG:** Buscar apenas o contexto relevante sob demanda.
+Como arquitetos de software, não podemos apenas jogar texto infinito no modelo. Precisamos de estratégias. Vamos ver três das mais usadas na prática:
 
 ---
 
-## 10. A Arquitetura RAG (Retrieval-Augmented Generation)
-
-A forma mais eficiente de dar "conhecimento" ao LLM sem estourar a janela de contexto.
-
-1. **Recuperação (Retrieval):** O usuário faz uma pergunta. O sistema busca em um banco de dados (geralmente Vetorial) os documentos relevantes.
-2. **Aumento (Augmentation):** O sistema junta a pergunta do usuário com os documentos encontrados.
-3. **Geração (Generation):** O LLM lê esse pacote focado e responde.
-
-<figure style="text-align: center;">
-  <img width="500" alt="rag-example" src="https://blog.langchain.com/content/images/2024/02/image-16.png" />
-  <figcaption style="text-align: center;">Fonte: <a href="https://blog.langchain.com/content/images/2024/02/image-16.png">LangChain Blog</a></figcaption>
-</figure>
-
+**a) Janela deslizante (Sliding Window)**
+Mantém só as últimas N mensagens, descartando as mais antigas. Simples e barato, mas perde informação de conversas longas.
 
 ---
 
-## 11. Banco Vetorial vs. Banco Tradicional
+**b) Sumarização de histórico**
+Periodicamente, o próprio LLM é usado para resumir a conversa até ali. Em vez de reenviar 50 mensagens, reenviamos um resumo de 3 parágrafos + as últimas trocas recentes.
 
-Por que não usamos um banco de dados SQL normal para o RAG?
+```mermaid
+sequenceDiagram
+    participant App as Sua Aplicação
+    participant LLM as API do LLM
 
-Pensando em uma biblioteca:
+    Note over App: Histórico ficou grande (50 msgs)
+    App->>LLM: "Resuma esta conversa em 3 parágrafos"
+    LLM-->>App: Resumo compacto
+    Note over App: Próxima chamada usa:<br/>Resumo + últimas 5 mensagens
+```
 
-* Banco Relacional (SQL): Você chega no balcão e pede o título exato. Se errar uma letra, o sistema retorna vazio. O SQL é literal.
+---
 
-* Banco Vetorial: Você chega no balcão e diz: "Quero ler sobre andar no mato, natureza e mochilão". O bibliotecário entende a "vibe" do que você pediu e te traz os livros certos, mesmo que nenhuma daquelas palavras exatas esteja no título.
+**c) RAG (Retrieval-Augmented Generation)**
+Em vez de guardar tudo no histórico, guardamos as informações em um banco de dados externo (geralmente um **banco vetorial**). A cada nova pergunta, buscamos só os pedaços de informação relevantes para aquela pergunta específica e injetamos no prompt — e é aqui que entram os **embeddings**, que vamos ver a seguir.
 
-O Banco Vetorial busca por significado (semântica), não por palavras-chave.
+```mermaid
+sequenceDiagram
+    participant User as Usuário
+    participant App as Sua Aplicação
+    participant DB as Banco Vetorial
+    participant LLM as API do LLM
+
+    User->>App: "Qual foi o problema no motor 3?"
+    App->>DB: Busca trechos relevantes
+    DB-->>App: Retorna 3 trechos mais próximos
+    App->>LLM: Pergunta + trechos recuperados
+    LLM-->>App: Resposta contextualizada
+```
+
+---
 
 ---
 ## 12. Embeddings: Como o computador entende a "vibe"?
 
-Para o computador fazer essa processo, precisamos transformar texto em números através de Embeddings.
+Para o RAG funcionar, precisamos transformar texto em números através de **Embeddings**.
 
 Imagine um mapa. Cidades parecidas ficam na mesma vizinhança.
 
 O Embedding pega uma frase e dá a ela uma "coordenada GPS" em um espaço matemático.
 
-Ideias parecidas ficam fisicamente próximas umas das outras.
+Ideias parecidas ficam fisicamente próximas umas das outras — e é comparando essas "coordenadas" (com distância matemática) que o banco vetorial do slide anterior decide quais trechos são relevantes pra sua pergunta.
 
 <figure style="text-align: center;">
-  <img width="500" alt="embedding-example" src="https://corpling.hypotheses.org/files/2018/04/Screen-Shot-2018-04-25-at-13.21.44.png" />
+  <img width="500" alt="embedding-example" src="https://glasswing.vc/wp-content/uploads/2023/10/8-Embeddings-.png" />
   <figcaption style="text-align: center;">Fonte:  <a href="https://corpling.hypotheses.org/files/2018/04/Screen-Shot-2018-04-25-at-13.21.44.png">Around the word</a>
   </figcaption>
 </figure>
+
+---
+
+## 🤔 Pra vocês
+
+Se vocês fossem construir um assistente de IA para responder perguntas sobre **os manuais técnicos de uma fábrica inteira** (milhares de páginas), qual das três estratégias do slide 9 vocês usariam? Por quê?
+
 
 ---
 
@@ -232,6 +249,14 @@ Trabalhar com LLMs não é só "fazer prompts legais". É projetar sistemas robu
 * O LLM é apenas o motor de raciocínio lógico (o processador).
 * A sua arquitetura é que deve fornecer a memória (RAM) e os arquivos (Disco).
 * **Stateless** é a regra do modelo. O **Contexto** é a responsabilidade do sistema que você constrói ao redor dele.
+
+---
+
+## O que vem por aí
+
+Hoje vimos os fundamentos: como a IA enxerga o mundo, por que ela é stateless, e as estratégias básicas de gestão de contexto (sliding window, sumarização, RAG).
+
+Nas próximas aulas: como implementar RAG na prática, segurança (prompt injection), *function calling* / uso de ferramentas, e como avaliar se seu sistema de IA está respondendo bem.
 
 ---
 
