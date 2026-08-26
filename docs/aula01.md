@@ -256,7 +256,7 @@ Trabalhar com LLMs não é só "fazer prompts legais". É projetar sistemas robu
 
 Hoje vimos os fundamentos: como a IA enxerga o mundo, por que ela é stateless, e as estratégias básicas de gestão de contexto (sliding window, sumarização, RAG).
 
-Nas próximas aulas: como implementar RAG na prática, segurança (prompt injection), *function calling* / uso de ferramentas, e como avaliar se seu sistema de IA está respondendo bem.
+Nas próximas aulas: API na prática com controle de custo, Structured Outputs com validação, Mini-RAG com busca semântica, pipelines com Pandas e extração de arquivos complexos até fechar em um produto com Streamlit.
 
 ---
 

@@ -1,7 +1,7 @@
 <div align="center">
 
 # Texto livre e Json
-### Aula 3: Structured Outputs
+### Aula 3: Structured Outputs com JSON e Pydantic
 
 <br>
 
@@ -15,9 +15,10 @@
 ## Agenda da Aula
 
 1. **O Caos do Texto Livre:** Por que `split()` e Regex vão quebrar
-2. **JSON: A Língua Franca:** Revisão rápida de estruturas para integração.
-3. **Structured Outputs & Pydantic:** Forçando o modelo a seguir o seu Schema.
-4. **Hands-on:** O Extrator de Entidades (Transformando reclamações em dados).
+2. **JSON: A Língua Franca:** Estrutura para integração entre sistemas.
+3. **Structured Outputs & Pydantic:** Contrato de resposta e validação.
+4. **Falhas reais:** Parse, campos faltantes e estratégia de retry.
+5. **Hands-on:** Extrator de entidades para dados de suporte.
 
 ---
 
@@ -63,7 +64,17 @@ class TicketSuporte(BaseModel):
 
 ---
 
-## 4. Hands-on: O Extrator de Entidades
+## 4. Robustez para Produção
+
+Mesmo com Structured Outputs, você precisa de tratamento de erro:
+* validar campos obrigatórios;
+* lidar com resposta incompleta;
+* aplicar retry com instrução mais rígida;
+* registrar erro para auditoria.
+
+---
+
+## 5. Hands-on: O Extrator de Entidades
 
 Construa um script que simula um sistema de triagem automática de e-mails de suporte.
 
@@ -87,6 +98,10 @@ JSON
   "intent_reembolso": true
 }
 ```
+
+### Entregável da Aula
+Um script que receba texto livre e devolva JSON validado por schema.
+
 ---
 
 ## Ferramentas e Referências
@@ -109,4 +124,4 @@ Substituir humanos lendo e-mails para preencher planilhas por um LLM com Structu
 
 ## Prática Extra
 
-Desafio: Adicione um campo chamado sentiment_analysis ao seu modelo Pydantic que aceite apenas três valores: ["POSITIVE", "NEUTRAL", "NEGATIVE"]. Tente forçar a IA a classificar o e-mail do cliente dentro dessas categorias.
+Desafio: adicione um campo `sentiment_analysis` ao modelo Pydantic aceitando apenas ["POSITIVE", "NEUTRAL", "NEGATIVE"] e valide a classificação para cada comentário.

@@ -1,7 +1,7 @@
 <div align="center">
 
 # Começando com arquivos
-### Aula 5: Base do Pandas (Filtros, Limpeza e Cruzamentos)
+### Aula 5: Pandas aplicado com enriquecimento por IA
 
 <br>
 
@@ -56,7 +56,7 @@ Somar texto gera erro de lógica: `"10" + "10" = "1010"`.
 
 ---
 
-## 5. Filtros e Cruzamentos Básicos
+## 5. Filtros, Agregação e IA no Loop
 
 Como extrair inteligência específica de uma massa de dados bruta:
 
@@ -64,6 +64,8 @@ Como extrair inteligência específica de uma massa de dados bruta:
     * Ex: `df[df['Status'] == 'Concluído']`
 * **Agrupamentos (Group By):** O equivalente à "Tabela Dinâmica". Consolida dados para gerar KPIs.
     * Ex: `df.groupby('Filial')['Valor_Venda'].sum()` para identificar o faturamento por região.
+
+Depois de filtrar e limpar, entra a IA para classificar texto livre e criar novas colunas analíticas.
 
 
 
@@ -79,6 +81,9 @@ A equipa de Qualidade exportou milhares de avaliações de clientes. O sistema a
 2. **Filtro Duplo no Pandas:** Isolar apenas as linhas onde o `Status` é "Concluído" **E** a `Avaliacao` é "Negativa" (não queremos analisar queixas de pedidos ainda em andamento).
 3. **IA no Loop:** Usar a API (OpenAI) para ler os comentários filtrados e classificá-los em três etiquetas estritas: `[Logística, Suporte, Produto]`.
 4. **Relatório Final:** Inserir estas etiquetas numa nova coluna e fazer um `groupby()` para descobrir qual é o departamento que está a causar mais problemas aos clientes.
+
+### Entregável da Aula
+Tabela final com coluna `Categoria_Erro` e ranking de ocorrências por categoria.
 
 ---
 

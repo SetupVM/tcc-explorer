@@ -1,7 +1,7 @@
 <div align="center">
 
 # Lendo o Inlegível
-### Aula 6: Extração de Dados em Arquivos Complexos (PDFs e IA)
+### Aula 6: Extração de Dados em Arquivos Complexos (PDF/TXT + IA)
 
 <br>
 
@@ -52,6 +52,10 @@ Para processar PDFs em massa, a arquitetura que vamos utilizar é:
 2. **Extração (IA):** Enviamos a string gigante para a OpenAI com um `System Prompt` estrito exigindo um formato JSON.
 3. **Consolidação (Pandas):** Pegamos o JSON gerado, convertemos numa linha de DataFrame e juntamos tudo numa planilha.
 
+Extensão recomendada:
+4. **Validação:** validar campos obrigatórios e formatar moeda/data.
+5. **Persistência:** salvar resultado consolidado em `.csv` para uso no app.
+
 
 
 ---
@@ -71,3 +75,12 @@ Como engenheiros, quando usamos Regex e quando usamos IA?
 1. Usar o `PyPDF2` para extrair o texto de dentro de um aquivo PDF.
 2. Usar a API da OpenAI para procurar o "Nome da Empresa", "Data de Vencimento" e "Valor Total" no meio da confusão de texto do PDF.
 3. Salvar o resultado final numa linha de um DataFrame Pandas.
+
+### Entregável da Aula
+Pipeline funcional de extração com entrada em arquivo e saída estruturada.
+
+---
+
+## 7. Preparação para a Aula Final
+
+No próximo encontro, vamos empacotar esses pipelines em um produto com Streamlit e preparar a apresentação de 5 a 7 minutos.

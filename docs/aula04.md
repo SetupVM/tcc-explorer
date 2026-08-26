@@ -29,6 +29,12 @@ Relembrando:
 
 * Generation (Geração): O LLM lê a pergunta + o parágrafo e responde.
 
+Resumo do fluxo:
+1. Indexar documentos.
+2. Buscar trechos relevantes por similaridade.
+3. Injetar contexto encontrado no prompt.
+4. Gerar resposta com base nesse contexto.
+
 ---
 
 ## 3. O que é Retrieval-Augmented Generation e o que realmente significa Embeddings 
@@ -66,8 +72,19 @@ No banco vetorial (semântico): "Me dê os 3 textos mais próximos do vetor da p
 
 A Ferramenta: Vamos usar o chromadb. É um banco vetorial local feito em Python. Ele é perfeito para estudo porque roda na memória (não precisa instalar servidores Docker).
 
+### Entregável da Aula
+Um mini-RAG funcional que:
+* recebe pergunta do utilizador;
+* recupera os 2 ou 3 trechos mais relevantes;
+* responde apenas com base no contexto recuperado.
+
+### Erros comuns para evitar
+* Indexar texto longo sem quebrar em chunks.
+* Não mostrar ao utilizador quais trechos foram recuperados.
+* Não instruir o modelo a admitir quando a resposta não está no contexto.
+
 ---
 
 ## 6. Fechamento
 
-Como isso vira dinheiro no mercado: Sistemas de suporte ao cliente que leem o histórico de chamados passados para sugerir a solução para o problema atual.
+Como isso vira dinheiro no mercado: sistemas de suporte e operação que recuperam conhecimento interno em segundos, com menor custo de contexto e maior precisão.
