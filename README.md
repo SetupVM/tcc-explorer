@@ -14,30 +14,27 @@ Sair da interface web (Chat) que todo mundo usa e entrar no código.
 Aulas sobre:
 1. Orquestrar chamadas de API (OpenAI/Gemini) controlando parâmetros como `Temperature` e Tokens.
 2. Forçar modelos a retornarem dados estruturados (JSON) para integração com bancos de dados.
-3. Extrair, limpar e processar dados de arquivos complexos e planilhas bagunçadas usando **Pandas**.
-4. Construir pipelines completos de automação que leem arquivos locais, tomam decisões com IA e geram relatórios.
-5. Criar interfaces web interativas para suas automações usando **Streamlit**.
+3. Implementar busca semântica e contexto recuperado (Mini-RAG).
+4. Extrair, limpar e processar dados de arquivos complexos e planilhas bagunçadas usando **Pandas**.
+5. Construir pipelines completos de automação que leem arquivos locais, tomam decisões com IA e geram relatórios.
+6. Criar interfaces web interativas para suas automações usando **Streamlit**.
 
 ---
 
 ## 📚 Ementa (Conteúdo Programático)
 
-### Módulo 1: Cérebro - APIs e RAG
+### Módulo 1: Cérebro - APIs e IA Estruturada
 - **Aula 1:** Arquitetura de Sistemas com IA (Stateless, Contexto e RAG) - Overview.
-- **Aula 2:** Consumo de APIs, Hiperparâmetros e Prompt Dinâmico.
-- **Aula 3:** Structured JSON Outputs e Validação.
-- **Aula 4:** Memória: Embeddings, Busca Semântica e Mini-RAG.
+- **Aula 2:** API na prática com controle de custo (Hiperparâmetros, Economia de Tokens, Segurança).
+- **Aula 3:** Structured JSON Outputs com Pydantic e Validação.
+- **Aula 4:** Mini-RAG: Embeddings, Busca Semântica e Retrieval-Augmented Generation.
 
 ### Módulo 2: Corpo - Dados e Automação
-- **Aula 5:** Base do Pandas (Filtros, Limpeza e Cruzamentos).
-- **Aula 6:** Extração de Dados: Lendo arquivos complexos (Regex + IA).
-- **Aula 7:** O Agente Analista: Construindo o pipeline de extração e consolidação.
-- **Aula 8:** Geração de Relatórios e Alertas automáticos.
+- **Aula 5:** Pandas aplicado com enriquecimento por IA (Filtros, Limpeza, Agregação).
+- **Aula 6:** Extração de Dados em Arquivos Complexos (PDF/TXT + IA).
 
-### Módulo 3: O Sistema Completo e Carreira
-- **Aula 9:** Transformando scripts em Web Apps com Streamlit.
-- **Aula 10:** Soft Skills
-- **Aula 11:** Demo Day: Apresentação dos Projetos Finais.
+### Módulo 3: Entrega e Produto Final
+- **Aula 7:** Streamlit, Entrega Técnica e Demo Day (Transformando scripts em produto, Checklist de Engenharia, Apresentação).
 
 ---
 
