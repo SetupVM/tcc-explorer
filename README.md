@@ -80,3 +80,4 @@ O código usará a biblioteca python-dotenv para carregar essas variáveis de fo
 
 - [Analista de Feedback](projetos/analista-feedback/README.md)
 - [Auditor de Gastos](projetos/auditor-gastos/README.md)
+- [Guru dos Manuais](projetos/guru-manuais/README.md)
