@@ -1,7 +1,7 @@
 # Design: scaffolds dos três projetos finais
 
 **Data:** 2026-10-18  
-**Status:** aguardando revisão do usuário  
+**Status:** aprovado pelo usuário  
 **Escopo:** criar bases de código e datasets sintéticos para os três modelos descritos em `projeto-final.md`.
 
 ## Contexto e objetivo
