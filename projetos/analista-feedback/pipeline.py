@@ -225,7 +225,8 @@ def enrich_reviews(
     failures: list[dict[str, Any]] = []
     for _, row in df.iterrows():
         record = row.to_dict()
-        comment = str(record.get("comentario") or "")
+        raw_comment = record.get("comentario")
+        comment = "" if pd.isna(raw_comment) else str(raw_comment)
         if not comment.strip():
             failures.append(
                 {

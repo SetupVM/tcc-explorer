@@ -47,6 +47,11 @@ class FeedbackTransformTests(unittest.TestCase):
         self.assertEqual(len(loaded_reviews), 1)
         self.assertEqual(loaded_products.loc[0, "nome"], "Fone")
 
+    def test_synthetic_dataset_keeps_most_reviews_after_deduplication(self):
+        data_dir = Path(__file__).resolve().parents[1] / "data"
+        reviews = pd.read_csv(data_dir / "reviews_loja.csv")
+        self.assertGreaterEqual(len(remove_near_duplicates(clean_reviews(reviews))), 250)
+
     def test_near_duplicate_criterion_is_case_and_accent_insensitive(self):
         raw = pd.DataFrame(
             {
@@ -120,6 +125,15 @@ class FeedbackAiTests(unittest.TestCase):
         )
         self.assertEqual(len(enriched), 0)
         self.assertEqual(errors.loc[0, "id"], 4)
+        self.assertEqual(client.completions.calls, 0)
+
+    def test_missing_comment_is_recorded_without_api_call(self):
+        client = FakeClient([])
+        enriched, errors = enrich_reviews(
+            pd.DataFrame({"id": [9], "comentario": [float("nan")]}), client, "fake", max_attempts=2
+        )
+        self.assertEqual(len(enriched), 0)
+        self.assertEqual(errors.loc[0, "id"], 9)
         self.assertEqual(client.completions.calls, 0)
 
     def test_attempt_count_is_bounded_and_conflict_rule_is_applied(self):

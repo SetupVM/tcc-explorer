@@ -6,296 +6,296 @@ id,data,id_produto,nota,comentario
 5,05/01/2025,5,cinco,"Entrega rápida, produto excelente!"
 6,Jan 06 2025,5,"4,5",ENTREGA rapida - produto excelente.
 7,2025-01-03,1,5,"Adorei o produto, chegou perfeito."
-8,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 008.
-9,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 009.
-10,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 010.
-11,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 011."
-12,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 012.
-13,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 013.
-14,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 014."
-15,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 015.
-16,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 016.
-17,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 017.
-18,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 018.
-19,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 019."
-20,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 020.
-21,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 021.
-22,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 022."
-23,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 023.
-24,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 024.
-25,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 025.
-26,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 026.
-27,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 027."
-28,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 028.
-29,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 029.
-30,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 030."
-31,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 031.
-32,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 032.
-33,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 033.
-34,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 034.
-35,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 035."
-36,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 036.
-37,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 037.
-38,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 038."
-39,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 039.
-40,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 040.
-41,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 041.
-42,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 042.
-43,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 043."
-44,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 044.
-45,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 045.
-46,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 046."
-47,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 047.
-48,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 048.
-49,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 049.
-50,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 050.
-51,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 051."
-52,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 052.
-53,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 053.
-54,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 054."
-55,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 055.
-56,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 056.
-57,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 057.
-58,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 058.
-59,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 059."
-60,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 060.
-61,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 061.
-62,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 062."
-63,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 063.
-64,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 064.
-65,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 065.
-66,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 066.
-67,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 067."
-68,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 068.
-69,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 069.
-70,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 070."
-71,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 071.
-72,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 072.
-73,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 073.
-74,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 074.
-75,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 075."
-76,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 076.
-77,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 077.
-78,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 078."
-79,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 079.
-80,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 080.
-81,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 081.
-82,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 082.
-83,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 083."
-84,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 084.
-85,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 085.
-86,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 086."
-87,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 087.
-88,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 088.
-89,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 089.
-90,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 090.
-91,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 091."
-92,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 092.
-93,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 093.
-94,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 094."
-95,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 095.
-96,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 096.
-97,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 097.
-98,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 098.
-99,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 099."
-100,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 100.
-101,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 101.
-102,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 102."
-103,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 103.
-104,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 104.
-105,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 105.
-106,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 106.
-107,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 107."
-108,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 108.
-109,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 109.
-110,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 110."
-111,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 111.
-112,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 112.
-113,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 113.
-114,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 114.
-115,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 115."
-116,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 116.
-117,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 117.
-118,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 118."
-119,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 119.
-120,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 120.
-121,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 121.
-122,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 122.
-123,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 123."
-124,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 124.
-125,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 125.
-126,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 126."
-127,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 127.
-128,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 128.
-129,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 129.
-130,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 130.
-131,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 131."
-132,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 132.
-133,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 133.
-134,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 134."
-135,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 135.
-136,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 136.
-137,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 137.
-138,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 138.
-139,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 139."
-140,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 140.
-141,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 141.
-142,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 142."
-143,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 143.
-144,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 144.
-145,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 145.
-146,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 146.
-147,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 147."
-148,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 148.
-149,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 149.
-150,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 150."
-151,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 151.
-152,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 152.
-153,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 153.
-154,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 154.
-155,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 155."
-156,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 156.
-157,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 157.
-158,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 158."
-159,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 159.
-160,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 160.
-161,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 161.
-162,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 162.
-163,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 163."
-164,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 164.
-165,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 165.
-166,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 166."
-167,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 167.
-168,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 168.
-169,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 169.
-170,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 170.
-171,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 171."
-172,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 172.
-173,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 173.
-174,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 174."
-175,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 175.
-176,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 176.
-177,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 177.
-178,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 178.
-179,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 179."
-180,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 180.
-181,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 181.
-182,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 182."
-183,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 183.
-184,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 184.
-185,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 185.
-186,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 186.
-187,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 187."
-188,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 188.
-189,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 189.
-190,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 190."
-191,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 191.
-192,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 192.
-193,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 193.
-194,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 194.
-195,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 195."
-196,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 196.
-197,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 197.
-198,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 198."
-199,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 199.
-200,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 200.
-201,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 201.
-202,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 202.
-203,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 203."
-204,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 204.
-205,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 205.
-206,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 206."
-207,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 207.
-208,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 208.
-209,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 209.
-210,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 210.
-211,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 211."
-212,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 212.
-213,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 213.
-214,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 214."
-215,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 215.
-216,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 216.
-217,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 217.
-218,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 218.
-219,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 219."
-220,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 220.
-221,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 221.
-222,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 222."
-223,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 223.
-224,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 224.
-225,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 225.
-226,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 226.
-227,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 227."
-228,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 228.
-229,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 229.
-230,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 230."
-231,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 231.
-232,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 232.
-233,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 233.
-234,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 234.
-235,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 235."
-236,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 236.
-237,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 237.
-238,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 238."
-239,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 239.
-240,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 240.
-241,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 241.
-242,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 242.
-243,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 243."
-244,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 244.
-245,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 245.
-246,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 246."
-247,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 247.
-248,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 248.
-249,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 249.
-250,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 250.
-251,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 251."
-252,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 252.
-253,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 253.
-254,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 254."
-255,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 255.
-256,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 256.
-257,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 257.
-258,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 258.
-259,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 259."
-260,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 260.
-261,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 261.
-262,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 262."
-263,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 263.
-264,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 264.
-265,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 265.
-266,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 266.
-267,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 267."
-268,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 268.
-269,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 269.
-270,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 270."
-271,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 271.
-272,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 272.
-273,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 273.
-274,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 274.
-275,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 275."
-276,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 276.
-277,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 277.
-278,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Referência 278."
-279,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Referência 279.
-280,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Referência 280.
-281,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Referência 281.
-282,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Referência 282.
-283,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Referência 283."
-284,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Referência 284.
-285,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 285.
-286,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Referência 286."
-287,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Referência 287.
-288,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Referência 288.
-289,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Referência 289.
-290,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Referência 290.
-291,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Referência 291."
-292,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Referência 292.
-293,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Referência 293.
-294,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Referência 294."
-295,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Referência 295.
-296,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Referência 296.
-297,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Referência 297.
-298,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Referência 298.
-299,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Referência 299."
-300,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Referência 300.
+8,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 008."
+9,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 009."
+10,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 010."
+11,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 011."
+12,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 012."
+13,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 013."
+14,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 014."
+15,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. Depois de tres dias de uso, o acabamento continua firme. Eu esperava mais pelo preco pago. Referência 015."
+16,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 016."
+17,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 017."
+18,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 018."
+19,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 019."
+20,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 020."
+21,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 021."
+22,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 022."
+23,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. Depois de tres dias de uso, o acabamento continua firme. Ainda estou aguardando solucao do atendimento. Referência 023."
+24,2025-02-10,12,5,"A qualidade superou minhas expectativas 😊 Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 024."
+25,10/02/2025,1,4,"A entrega demorou e o pacote chegou amassado. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 025."
+26,Feb 11 2025,2,3,"O atendimento resolveu meu problema rapidamente. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 026."
+27,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 027."
+28,2025-02-10,4,1,"Tudo certo com o pedido e o produto funciona bem. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 028."
+29,10/02/2025,5,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 029."
+30,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 030."
+31,11-02-2025,7,"4,5","O produto veio diferente da foto e quero uma troca. Depois de tres dias de uso, o acabamento continua firme. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 031."
+32,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 032."
+33,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 033."
+34,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 034."
+35,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 035."
+36,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 036."
+37,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 037."
+38,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 038."
+39,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. Na primeira semana, percebi um ruido diferente ao ligar. Isso aconteceu na semana da compra. Referência 039."
+40,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 040."
+41,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 041."
+42,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 042."
+43,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 043."
+44,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 044."
+45,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 045."
+46,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 046."
+47,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. Na primeira semana, percebi um ruido diferente ao ligar. Eu esperava mais pelo preco pago. Referência 047."
+48,2025-02-10,12,5,"A qualidade superou minhas expectativas 😊 Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 048."
+49,10/02/2025,1,4,"A entrega demorou e o pacote chegou amassado. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 049."
+50,Feb 11 2025,2,3,"O atendimento resolveu meu problema rapidamente. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 050."
+51,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 051."
+52,2025-02-10,4,1,"Tudo certo com o pedido e o produto funciona bem. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 052."
+53,10/02/2025,5,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 053."
+54,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 054."
+55,11-02-2025,7,"4,5","O produto veio diferente da foto e quero uma troca. Na primeira semana, percebi um ruido diferente ao ligar. Ainda estou aguardando solucao do atendimento. Referência 055."
+56,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 056."
+57,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 057."
+58,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 058."
+59,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 059."
+60,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 060."
+61,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 061."
+62,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 062."
+63,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. Na primeira semana, percebi um ruido diferente ao ligar. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 063."
+64,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 064.
+65,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 065.
+66,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 066.
+67,11-02-2025,7,2,"Pelo preço, esperava um material melhor. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 067."
+68,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 068.
+69,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 069.
+70,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 070."
+71,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. A caixa veio com a etiqueta rasgada e sem lacre. Isso aconteceu na semana da compra. Referência 071.
+72,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 072.
+73,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 073.
+74,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 074.
+75,11-02-2025,3,2,"Pelo preço, esperava um material melhor. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 075."
+76,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 076.
+77,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 077.
+78,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 078."
+79,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. A caixa veio com a etiqueta rasgada e sem lacre. Eu esperava mais pelo preco pago. Referência 079.
+80,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 080.
+81,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 081.
+82,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 082.
+83,11-02-2025,11,2,"Pelo preço, esperava um material melhor. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 083."
+84,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 084.
+85,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 085.
+86,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 086."
+87,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. A caixa veio com a etiqueta rasgada e sem lacre. Ainda estou aguardando solucao do atendimento. Referência 087.
+88,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 088."
+89,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 089."
+90,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 090."
+91,11-02-2025,7,2,"Pelo preço, esperava um material melhor. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 091."
+92,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 092."
+93,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 093."
+94,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 094."
+95,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. A caixa veio com a etiqueta rasgada e sem lacre. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 095."
+96,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 096.
+97,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 097.
+98,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 098.
+99,11-02-2025,3,2,"Pelo preço, esperava um material melhor. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 099."
+100,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 100.
+101,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 101.
+102,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 102."
+103,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. O suporte respondeu somente no dia seguinte. Isso aconteceu na semana da compra. Referência 103.
+104,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 104.
+105,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 105.
+106,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 106.
+107,11-02-2025,11,2,"Pelo preço, esperava um material melhor. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 107."
+108,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 108.
+109,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 109.
+110,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 110."
+111,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. O suporte respondeu somente no dia seguinte. Eu esperava mais pelo preco pago. Referência 111.
+112,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 112.
+113,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 113.
+114,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 114.
+115,11-02-2025,7,2,"Pelo preço, esperava um material melhor. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 115."
+116,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 116.
+117,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 117.
+118,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 118."
+119,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. O suporte respondeu somente no dia seguinte. Ainda estou aguardando solucao do atendimento. Referência 119.
+120,2025-02-10,12,5,"A qualidade superou minhas expectativas 😊 O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 120."
+121,10/02/2025,1,4,"A entrega demorou e o pacote chegou amassado. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 121."
+122,Feb 11 2025,2,3,"O atendimento resolveu meu problema rapidamente. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 122."
+123,11-02-2025,3,2,"Pelo preço, esperava um material melhor. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 123."
+124,2025-02-10,4,1,"Tudo certo com o pedido e o produto funciona bem. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 124."
+125,10/02/2025,5,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 125."
+126,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 126."
+127,11-02-2025,7,"4,5","O produto veio diferente da foto e quero uma troca. O suporte respondeu somente no dia seguinte. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 127."
+128,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 128.
+129,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 129.
+130,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 130.
+131,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 131."
+132,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 132.
+133,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 133.
+134,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 134."
+135,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. Usei em uma viagem curta e o desempenho foi estavel. Isso aconteceu na semana da compra. Referência 135.
+136,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 136.
+137,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 137.
+138,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 138.
+139,11-02-2025,7,2,"Pelo preço, esperava um material melhor. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 139."
+140,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 140.
+141,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 141.
+142,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 142."
+143,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. Usei em uma viagem curta e o desempenho foi estavel. Eu esperava mais pelo preco pago. Referência 143.
+144,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 144.
+145,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 145.
+146,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 146.
+147,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 147."
+148,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 148.
+149,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 149.
+150,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 150."
+151,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Usei em uma viagem curta e o desempenho foi estavel. Ainda estou aguardando solucao do atendimento. Referência 151.
+152,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 152."
+153,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 153."
+154,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 154."
+155,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 155."
+156,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 156."
+157,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 157."
+158,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 158."
+159,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. Usei em uma viagem curta e o desempenho foi estavel. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 159."
+160,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 160.
+161,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 161.
+162,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 162.
+163,11-02-2025,7,2,"Pelo preço, esperava um material melhor. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 163."
+164,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 164.
+165,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 165.
+166,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 166."
+167,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. A cor real ficou diferente das imagens do site. Isso aconteceu na semana da compra. Referência 167.
+168,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 168.
+169,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 169.
+170,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 170.
+171,11-02-2025,3,2,"Pelo preço, esperava um material melhor. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 171."
+172,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 172.
+173,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 173.
+174,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 174."
+175,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. A cor real ficou diferente das imagens do site. Eu esperava mais pelo preco pago. Referência 175.
+176,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 176.
+177,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 177.
+178,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 178.
+179,11-02-2025,11,2,"Pelo preço, esperava um material melhor. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 179."
+180,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 180.
+181,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 181.
+182,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 182."
+183,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. A cor real ficou diferente das imagens do site. Ainda estou aguardando solucao do atendimento. Referência 183.
+184,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 184."
+185,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 185."
+186,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 186."
+187,11-02-2025,7,2,"Pelo preço, esperava um material melhor. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 187."
+188,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 188."
+189,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 189."
+190,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 190."
+191,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. A cor real ficou diferente das imagens do site. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 191."
+192,2025-02-10,12,5,"A qualidade superou minhas expectativas 😊 O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 192."
+193,10/02/2025,1,4,"A entrega demorou e o pacote chegou amassado. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 193."
+194,Feb 11 2025,2,3,"O atendimento resolveu meu problema rapidamente. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 194."
+195,11-02-2025,3,2,"Pelo preço, esperava um material melhor. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 195."
+196,2025-02-10,4,1,"Tudo certo com o pedido e o produto funciona bem. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 196."
+197,10/02/2025,5,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 197."
+198,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 198."
+199,11-02-2025,7,"4,5","O produto veio diferente da foto e quero uma troca. O prazo prometido era curto, mas o rastreio ficou parado. Isso aconteceu na semana da compra. Referência 199."
+200,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 200."
+201,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 201."
+202,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 202."
+203,11-02-2025,11,2,"Pelo preço, esperava um material melhor. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 203."
+204,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 204."
+205,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 205."
+206,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 206."
+207,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. O prazo prometido era curto, mas o rastreio ficou parado. Eu esperava mais pelo preco pago. Referência 207."
+208,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 208."
+209,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 209."
+210,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 210."
+211,11-02-2025,7,2,"Pelo preço, esperava um material melhor. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 211."
+212,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 212."
+213,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 213."
+214,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 214."
+215,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. O prazo prometido era curto, mas o rastreio ficou parado. Ainda estou aguardando solucao do atendimento. Referência 215."
+216,2025-02-10,12,5,"A qualidade superou minhas expectativas 😊 O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 216."
+217,10/02/2025,1,4,"A entrega demorou e o pacote chegou amassado. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 217."
+218,Feb 11 2025,2,3,"O atendimento resolveu meu problema rapidamente. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 218."
+219,11-02-2025,3,2,"Pelo preço, esperava um material melhor. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 219."
+220,2025-02-10,4,1,"Tudo certo com o pedido e o produto funciona bem. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 220."
+221,10/02/2025,5,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 221."
+222,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 222."
+223,11-02-2025,7,"4,5","O produto veio diferente da foto e quero uma troca. O prazo prometido era curto, mas o rastreio ficou parado. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 223."
+224,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 224.
+225,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 225.
+226,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 226.
+227,11-02-2025,11,2,"Pelo preço, esperava um material melhor. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 227."
+228,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 228.
+229,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 229.
+230,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 230."
+231,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. A peca principal veio com um risco pequeno. Isso aconteceu na semana da compra. Referência 231.
+232,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 232.
+233,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 233.
+234,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 234.
+235,11-02-2025,7,2,"Pelo preço, esperava um material melhor. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 235."
+236,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 236.
+237,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 237.
+238,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 238."
+239,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. A peca principal veio com um risco pequeno. Eu esperava mais pelo preco pago. Referência 239.
+240,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 240.
+241,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 241.
+242,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 242.
+243,11-02-2025,3,2,"Pelo preço, esperava um material melhor. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 243."
+244,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 244.
+245,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 245.
+246,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 246."
+247,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. A peca principal veio com um risco pequeno. Ainda estou aguardando solucao do atendimento. Referência 247.
+248,2025-02-10,8,5,"A qualidade superou minhas expectativas 😊 A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 248."
+249,10/02/2025,9,4,"A entrega demorou e o pacote chegou amassado. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 249."
+250,Feb 11 2025,10,3,"O atendimento resolveu meu problema rapidamente. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 250."
+251,11-02-2025,11,2,"Pelo preço, esperava um material melhor. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 251."
+252,2025-02-10,12,1,"Tudo certo com o pedido e o produto funciona bem. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 252."
+253,10/02/2025,1,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 253."
+254,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 254."
+255,11-02-2025,3,"4,5","O produto veio diferente da foto e quero uma troca. A peca principal veio com um risco pequeno. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 255."
+256,2025-02-10,4,5,A qualidade superou minhas expectativas 😊 O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 256.
+257,10/02/2025,5,4,A entrega demorou e o pacote chegou amassado. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 257.
+258,Feb 11 2025,6,3,O atendimento resolveu meu problema rapidamente. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 258.
+259,11-02-2025,7,2,"Pelo preço, esperava um material melhor. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 259."
+260,2025-02-10,8,1,Tudo certo com o pedido e o produto funciona bem. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 260.
+261,10/02/2025,9,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 261.
+262,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 262."
+263,11-02-2025,11,"4,5",O produto veio diferente da foto e quero uma troca. O manual explica bem a primeira configuracao. Isso aconteceu na semana da compra. Referência 263.
+264,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 264.
+265,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 265.
+266,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 266.
+267,11-02-2025,3,2,"Pelo preço, esperava um material melhor. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 267."
+268,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 268.
+269,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 269.
+270,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 270."
+271,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. O manual explica bem a primeira configuracao. Eu esperava mais pelo preco pago. Referência 271.
+272,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 272.
+273,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 273.
+274,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 274.
+275,11-02-2025,11,2,"Pelo preço, esperava um material melhor. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 275."
+276,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 276.
+277,10/02/2025,1,,Que experiência maravilhosa: parou de funcionar no primeiro dia. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 277.
+278,Feb 11 2025,2,cinco,"The product is good, but customer service was slow. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 278."
+279,11-02-2025,3,"4,5",O produto veio diferente da foto e quero uma troca. O manual explica bem a primeira configuracao. Ainda estou aguardando solucao do atendimento. Referência 279.
+280,2025-02-10,4,5,"A qualidade superou minhas expectativas 😊 O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 280."
+281,10/02/2025,5,4,"A entrega demorou e o pacote chegou amassado. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 281."
+282,Feb 11 2025,6,3,"O atendimento resolveu meu problema rapidamente. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 282."
+283,11-02-2025,7,2,"Pelo preço, esperava um material melhor. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 283."
+284,2025-02-10,8,1,"Tudo certo com o pedido e o produto funciona bem. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 284."
+285,10/02/2025,9,,"Que experiência maravilhosa: parou de funcionar no primeiro dia. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 285."
+286,Feb 11 2025,10,cinco,"The product is good, but customer service was slow. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 286."
+287,11-02-2025,11,"4,5","O produto veio diferente da foto e quero uma troca. O manual explica bem a primeira configuracao. Mesmo assim, recomendo verificar cada unidade antes do envio. Referência 287."
+288,2025-02-10,12,5,A qualidade superou minhas expectativas 😊 Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 288.
+289,10/02/2025,1,4,A entrega demorou e o pacote chegou amassado. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 289.
+290,Feb 11 2025,2,3,O atendimento resolveu meu problema rapidamente. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 290.
+291,11-02-2025,3,2,"Pelo preço, esperava um material melhor. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 291."
+292,2025-02-10,4,1,Tudo certo com o pedido e o produto funciona bem. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 292.
+293,10/02/2025,5,,Que experiência maravilhosa: parou de funcionar no primeiro dia. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 293.
+294,Feb 11 2025,6,cinco,"The product is good, but customer service was slow. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 294."
+295,11-02-2025,7,"4,5",O produto veio diferente da foto e quero uma troca. Precisei solicitar a troca porque veio no tamanho errado. Isso aconteceu na semana da compra. Referência 295.
+296,2025-02-10,8,5,A qualidade superou minhas expectativas 😊 Precisei solicitar a troca porque veio no tamanho errado. Eu esperava mais pelo preco pago. Referência 296.
+297,10/02/2025,9,4,A entrega demorou e o pacote chegou amassado. Precisei solicitar a troca porque veio no tamanho errado. Eu esperava mais pelo preco pago. Referência 297.
+298,Feb 11 2025,10,3,O atendimento resolveu meu problema rapidamente. Precisei solicitar a troca porque veio no tamanho errado. Eu esperava mais pelo preco pago. Referência 298.
+299,11-02-2025,11,2,"Pelo preço, esperava um material melhor. Precisei solicitar a troca porque veio no tamanho errado. Eu esperava mais pelo preco pago. Referência 299."
+300,2025-02-10,12,1,Tudo certo com o pedido e o produto funciona bem. Precisei solicitar a troca porque veio no tamanho errado. Eu esperava mais pelo preco pago. Referência 300.
