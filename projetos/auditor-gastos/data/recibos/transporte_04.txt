@@ -1,0 +1,4 @@
+VaiVem
+Data da corrida: 2025-02-04
+Viagem | Quantidade: 1 | Valor: R$ 24,90
+Total pago: R$ 24,90

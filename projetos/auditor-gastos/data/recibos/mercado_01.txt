@@ -1,0 +1,5 @@
+MERCADO BOM PRECO
+Data: 10/01/2025
+Arroz 5kg | Quantidade: 2 | Valor: R$ 28,00
+Feijao 1kg | Quantidade: 1 | Valor: R$ 8,50
+TOTAL: R$ 36,50

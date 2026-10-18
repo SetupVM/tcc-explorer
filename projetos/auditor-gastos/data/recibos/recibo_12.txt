@@ -1,0 +1,5 @@
+Padaria Central
+Data: 2025-01-13
+Item principal | Quantidade: 1 | Valor: R$ 22,00
+Taxa/extra | Quantidade: 1 | Valor: R$ 2,50
+TOTAL: R$ 24,50

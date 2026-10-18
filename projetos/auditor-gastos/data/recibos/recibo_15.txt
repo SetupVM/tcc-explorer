@@ -1,0 +1,5 @@
+Mercado do Bairro
+Data: 16/04/2025
+Item principal | Quantidade: 1 | Valor: R$ 1.234,56
+Taxa/extra | Quantidade: 1 | Valor: R$ 0,00
+TOTAL: R$ 1.234,56

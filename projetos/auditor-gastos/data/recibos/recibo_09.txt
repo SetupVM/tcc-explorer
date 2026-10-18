@@ -1,0 +1,5 @@
+Restaurante da Vila
+Data: 10/10/2025
+Item principal | Quantidade: 1 | Valor: R$ 19,00
+Gorjeta | Quantidade: 1 | Valor: R$ 2,50
+TOTAL: R$ 21,50
