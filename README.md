@@ -75,3 +75,7 @@ GEMINI_API_KEY="sua-chave-aqui"
 ```
 
 O código usará a biblioteca python-dotenv para carregar essas variáveis de forma segura.
+
+## Projetos finais — exemplos
+
+- [Analista de Feedback](projetos/analista-feedback/README.md)
