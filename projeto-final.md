@@ -1,95 +1,161 @@
-# 🏆 Desafio Final: IA na Prática (Aula 7)
+# Projeto Final em Sala: IA na Prática 
 
-## O Cenário: Carta Branca
-Ao longo das 7 aulas, aprendemos a arquitetar sistemas com IA, controlar APIs, estruturar dados e processar informações complexas. Agora, a bola está com vocês e **vocês têm total liberdade para escolher o tema do projeto.**
+## O Cenário: 3 Caminhos, 1 Entrega
 
-O seu desafio é identificar um problema real e construir um *produto de dados* para resolvê-lo. Pode ser um gargalo do atual estágio/trabalho, uma dificuldade da vida universitária, ou até mesmo algo focado em hobbies (finanças pessoais, análise de jogos, esporte, viagens). A única regra é: **o sistema tem de ser útil e resolver um problema de forma automatizada.**
+Nas duas últimas aulas vocês vão construir um produto de dados completo: dados brutos entram, a IA trabalha, o Pandas organiza e o Streamlit mostra o resultado.
 
-## Objetivo do Projeto
-Construir um pipeline de dados inteligente, de ponta a ponta, que receba dados brutos/desestruturados, utilize a inteligência de um LLM para tratá-los ou consultá-los, e exiba os resultados numa interface visual funcional com **Streamlit**.
+Para que dê tempo, o tema já vem definido. Cada grupo escolhe **um dos 3 modelos** abaixo. Todos usam as mesmas 4 camadas do desafio final (Dados, Cognitiva, Interface e Engenharia), com um **dataset fornecido** e **checkpoints** no roteiro.
 
----
+Os projetos foram dimensionados para **2 aulas de 100 minutos, com uso de IA para programar liberado** (veja as regras na seção [Uso de IA](#-uso-de-ia-para-programar)).
 
-## Requisitos Técnicos Obrigatórios (MVP)
-
-Apesar de o tema ser livre, o projeto de vocês **deve** conter obrigatoriamente as 4 camadas abaixo:
-
-### Grupos de até 3 pessoas
-
-### 1. Camada de Dados (Pandas + Aulas 5 e 6)
-* O sistema deve ler pelo menos uma base de dados externa (um `.csv` sujo, um `.xlsx` ou múltiplos arquivos `.txt`/`.pdf`).
-* O código deve realizar pelo menos uma operação de **limpeza** (tratar nulos, remover duplicatas ou corrigir tipagem).
-* O código deve realizar pelo menos uma operação de **agregação ou filtro** (ex: `groupby()` para gerar um resumo financeiro ou quantitativo).
-
-### 2. Camada Cognitiva (Inteligência Artificial + Aulas 2, 3 e 4)
-* O sistema deve realizar chamadas para a API (OpenAI ou Gemini) com **controle de custo** (temperature, max_tokens).
-* **Opção A (Extração/Classificação - Aula 3):** Usar *Structured Outputs* (JSON com Pydantic) para ler textos livres da base de dados e criar uma nova coluna padronizada (ex: Análise de Sentimento de comentários, extração de dados específicos).
-* **Opção B (Mini-RAG - Aula 4):** Usar embeddings e busca semântica (ChromaDB ou similar) para vetorizar documentos complexos e permitir buscas contextualizadas (ex: um assistente que lê manuais e responde a dúvidas baseadas neles).
-
-### 3. Camada de Interface (Streamlit + Aula 7)
-* O projeto deve ter uma interface gráfica feita em **Streamlit** (obrigatório).
-* O utilizador final deve conseguir fazer o upload do ficheiro (`st.file_uploader`) ou digitar a sua pergunta (`st.text_input`) diretamente na tela.
-* O resultado deve ser exibido na tela de forma visual (tabelas interativas, métricas ou gráficos básicos).
-* **Checklist de engenharia:** código organizado em funções, nomes legíveis, pipeline funcional e testável.
-
-### 4. Camada de Engenharia e Versionamento (GitHub + Aula 7)
-* O projeto deve estar num repositório público no GitHub.
-* O repositório **NÃO** pode conter a chave da API (`.env` deve estar no `.gitignore`).
-* O repositório deve ter um arquivo `requirements.txt` completo.
-* O repositório deve ter um `README.md` profissional, explicando:
-  * Qual problema o sistema resolve (pitch claro).
-  * Como usar a aplicação (instruções passo a passo).
-  * Como rodar o código localmente (`git clone`, `pip install`, `streamlit run`).
+**Grupos de até 3 pessoas.** 
 
 ---
 
-## 💡 Ideias de Projetos (Apenas como inspiração)
+## Os 3 Modelos
 
-Caso não saibam por onde começar, aqui ficam algumas ideias que podem adaptar:
-
-1. **O Auditor Pessoal (Aulas 5 e 6):** Uma aplicação que lê dezenas de faturas ou recibos misturados em `.txt`, usa a IA para extrair "Estabelecimento", "Valor" e "Categoria" em JSON (Aula 3), limpa com Pandas e gera um painel de gastos mensal em Streamlit.
-2. **O Analista de Feedback (Aula 5):** O app recebe um `.csv` com centenas de *reviews* (de um produto, de um filme, ou de um jogo). A IA lê cada uma, classifica (Positivo, Negativo, Neutro) com Structured Outputs (Aula 3), e o Pandas gera um gráfico com o resumo do que as pessoas mais gostam ou odeiam.
-3. **O Guru dos Manuais (Mini-RAG - Aula 4):** Uma interface de chat onde se faz o upload de um arquivo `.pdf` complexo (como regras de um jogo de tabuleiro longo, editais de concursos ou manuais). O sistema usa embeddings para vetorizar o texto (Aula 4) e permite fazer perguntas precisas ao documento com contexto recuperado.
-
----
-
-## 📅 Entregáveis e Prazos
-
-* **Data de Entrega (GitHub):** 31/05 até as 23h59. Apenas o link do repositório deve ser enviado.
-* **Demo Day:** o projeto precisa ser apresentado para mim, na data melhor para o grupo.
-
-### O Formato do Demo Day (Aula 7):
-Cada grupo terá **5 a 7 minutos** para apresentar. Menos slides, mais produto rodando. A estrutura é:
-1. **O Problema (1 min):** Qual é a dor ou desafio real que escolheram resolver?
-2. **A Solução (1 min):** Como usaram IA + Dados para criar este produto?
-3. **Ao Vivo (Live Demo) (3 min):** Executar a aplicação Streamlit e mostrar o fluxo funcionando.
-4. **Desafios Técnicos (1 min):** Qual foi a parte mais difícil e como foi resolvida?
+| | Modelo 1 | Modelo 2 | Modelo 3 |
+|---|---|---|---|
+| **Nome** | Analista de Feedback | Auditor de Gastos | Guru dos Manuais |
+| **Entrada** | 2 `.csv` sujos (reviews + produtos) | Recibos em `.txt` e `.pdf`, com layouts diferentes | 1 `.pdf` longo (manual, regras, edital) |
+| **IA (aulas)** | Structured Outputs aninhado (Aula 3) | Structured Outputs com lista de itens + validação (Aulas 3 e 6) | Mini-RAG com fontes (Aula 4) |
+| **Pandas (aulas)** | Limpeza, `merge`, `explode`, `groupby` (Aula 5) | Consolidação, deduplicação, `explode`, `groupby` (Aulas 5 e 6) | Limpeza de texto + log de perguntas (Aulas 5 e 6) |
+| **Saída no Streamlit** | Métricas, gráficos e drill-down nos comentários | Tabela de gastos, gráfico e lista de arquivos com problema | Chat com resposta, páginas e trechos usados |
 
 ---
 
-## 📊 Critérios de Avaliação
+## Modelo 1: O Analista de Feedback
 
-O projeto será avaliado em 4 dimensões, alinhadas às 7 aulas:
+**Problema:** uma loja online recebe centenas de reviews em texto livre e ninguém consegue ler tudo. O time precisa saber **o que os clientes elogiam e o que reclamam, por produto e por categoria**, e quais ações priorizar.
 
-1. **Funcionalidade (40%):** 
-   - O código roda sem erros?
-   - A aplicação resolve o problema proposto?
-   - A integração com API (Aulas 2, 3, 4) funciona corretamente?
-   - O pipeline Pandas (Aulas 5, 6) processa dados conforme esperado?
+**Dataset fornecido:**
+- `reviews_loja.csv` (~300 linhas): `id`, `data`, `id_produto`, `nota`, `comentario`.
+- `produtos.csv`: `id_produto`, `nome`, `categoria`, `preco`.
 
-2. **Arquitetura e Clean Code (20%):** 
-   - Código organizado em funções claras?
-   - Variáveis e nomes de função legíveis?
-   - System Prompt bem construído (Aula 2)?
-   - Tratamento de erros para falhas de API e parsing?
+A base está **suja**: datas em formatos misturados, notas nulas ou escritas como texto (`"cinco"`, `"4,5"`), comentários quase duplicados, comentários vazios, emojis, **ironia** (`"Ótimo, quebrou no segundo dia"`) e alguns textos em inglês.
 
-3. **Domínio e Complexidade (20%):** 
-   - Domínio comprovado de Pandas (Aulas 5, 6) ou apenas tutoriais copiados?
-   - Uso correto de Structured Outputs ou Mini-RAG (Aulas 3, 4)?
-   - Demonstração prática de controle de custo (Aula 2)?
+**O que o sistema deve fazer:**
 
-4. **Apresentação e Produto (20%):** 
-   - Interface Streamlit é intuitiva e funcional (Aula 7)?
-   - `README.md` profissional e completo?
-   - Demo de 5 a 7 min clara, focada no valor entregue?
-   - Repositório GitHub limpo e bem documentado?
+1. **Dados (Pandas):** ler os dois arquivos, limpar, definir um critério para duplicatas "quase iguais" e cruzar as bases com `merge`.
+2. **IA (Aula 3):** para cada comentário, extrair com Pydantic um objeto **aninhado**: `sentimento_geral`, `idioma`, `urgente` e uma lista de `aspectos`, cada um com `aspecto` (entrega, preço, qualidade, atendimento ou outro) e `sentimento`.
+3. **Confiabilidade:** validar a saída, reprocessar com número limitado de tentativas quando o parsing falhar e registrar o que não deu certo. Sinalizar os casos em que a nota numérica contradiz o sentimento extraído.
+4. **Dados (Pandas):** transformar a lista de aspectos em linhas (`explode`) e gerar agregações, como produto × aspecto × sentimento e ranking de problemas por categoria.
+5. **Interface (Streamlit):** upload dos dois CSVs, métricas, gráficos e tabela filtrável com acesso aos comentários originais.
+
+**Desafio extra (escolham um):**
+- Uma segunda chamada de IA que gera um **resumo executivo com ações recomendadas** a partir dos *dados agregados* (não dos 300 comentários, para controlar o custo).
+- Botão para baixar o CSV enriquecido.
+- Comparar dois *prompts* e mostrar qual acertou mais no gabarito.
+
+---
+
+## Modelo 2: O Auditor de Gastos
+
+**Problema:** uma pessoa (ou pequena empresa) guarda dezenas de recibos e faturas em formatos diferentes e quer saber **para onde o dinheiro está indo**, com números em que dê para confiar.
+
+**Dataset fornecido:** pasta `recibos/` com 20 a 30 arquivos `.txt` e `.pdf`, cada um com um layout diferente (supermercado com vários itens, app de transporte, restaurante com gorjeta, conta de luz).
+Alguns recibos aparecem em dois arquivos com formatação diferente, valores vêm como `R$ 1.234,56`, as datas misturam formatos e há arquivos incompletos ou ilegíveis.
+
+**O que o sistema deve fazer:**
+
+1. **Dados (Aula 6):** ler todos os `.txt` e `.pdf` da pasta, sem que um arquivo ruim derrube o programa.
+2. **IA (Aula 3):** extrair cada recibo para um objeto **aninhado** com `estabelecimento`, `data`, `itens` (lista com descrição, quantidade e valor), `valor_total` e `categoria` (lista fechada: alimentação, transporte, moradia, lazer, outros).
+3. **Validação:** conferir se a soma dos itens bate com o `valor_total` (com tolerância definida pelo grupo), rejeitar datas inválidas e valores negativos, reprocessar com número limitado de tentativas e **listar os arquivos que falharam ou ficaram inconsistentes**.
+4. **Dados (Pandas):** consolidar tudo, corrigir tipos, detectar duplicatas (mesmo estabelecimento, data e valor), gerar `groupby` por categoria e por mês e usar `explode` nos itens para montar um ranking dos mais caros.
+5. **Interface (Streamlit):** upload múltiplo (`accept_multiple_files=True`), tabela de gastos, métricas, gráfico por categoria e lista de problemas.
+
+**Desafio extra (escolham um):**
+- *Insights* do mês (por exemplo, onde há espaço para cortar gastos) gerados por uma segunda chamada de IA a partir da *tabela agregada*, sem reenviar os recibos.
+- Orçamento mensal por categoria, com alerta quando o gasto ultrapassar o limite.
+
+---
+
+## Modelo 3: O Guru dos Manuais
+
+**Problema:** manuais, regulamentos e editais são longos e ninguém os lê inteiros. Queremos um assistente que **responda perguntas com base no documento**, sem inventar.
+
+**Dataset fornecido:** 1 PDF de 20 a 40 páginas (regras de um jogo de tabuleiro, manual de um equipamento ou edital). O grupo pode trocar por outro PDF de interesse.
+
+**O que o sistema deve fazer:**
+
+1. **Dados (Aula 6 + Pandas):** extrair o texto do PDF página a página, limpar (cabeçalhos repetidos, quebras de linha, espaços) e dividir em *chunks* com um pouco de sobreposição, guardando a **página de origem** de cada um.
+2. **IA (Aula 4):** gerar embeddings dos chunks, guardar no ChromaDB, buscar os trechos mais próximos da pergunta e montar o prompt com esse contexto. O *system prompt* deve mandar responder **somente com base no contexto** e dizer "não encontrei no documento" quando for o caso.
+3. **Confiabilidade:** tratar falhas de API e perguntas fora do escopo do documento sem quebrar o app.
+4. **Dados (Pandas):** registrar cada pergunta num DataFrame (pergunta, trechos usados, páginas, tokens) e exibir esse histórico na tela.
+5. **Interface (Streamlit):** upload do PDF, campo de pergunta (`st.text_input` ou `st.chat_input`), resposta e os trechos usados como fonte, com a página de cada um.
+
+**Desafio extra:** comparar dois tamanhos de *chunk* (por exemplo, 500 e 1000 caracteres) e mostrar qual acerta mais no gabarito.
+
+---
+
+## Requisitos Mínimos (valem para os 3 modelos)
+
+**Dados**
+- Lê pelo menos uma fonte externa (CSV, TXT ou PDF).
+- Faz pelo menos uma limpeza e uma agregação ou filtro com Pandas.
+
+**IA**
+- Chamadas à API (OpenAI ou Gemini) com `temperature` e `max_tokens` definidos.
+- Um *system prompt* escrito pelo grupo.
+- Tratamento de erro para falha de API e de parsing, com número limitado de tentativas.
+
+**Interface**
+- App em Streamlit com entrada do usuário (upload ou pergunta) e resultado visual.
+- Código organizado em funções.
+
+**Engenharia**
+- Repositório público no GitHub, sem chave de API (`.env` no `.gitignore`).
+- `requirements.txt` completo.
+- `README.md` com: o problema que resolve, como usar, como rodar (`git clone`, `pip install`, `streamlit run`) e o resultado do gabarito.
+
+---
+
+## Regras de Custo e Segurança (importante em sala)
+
+- Sempre defina `max_tokens`. Chamadas dentro de loop sem limite estouram o orçamento rápido.
+- **Nunca** coloque a chave no código nem faça commit do `.env`.
+- Evitem chamar a API de novo para o mesmo dado: guardem o resultado em variável ou arquivo.
+- Limitem as tentativas de reprocessamento (2 ou 3). Um *retry* sem limite é um custo sem limite.
+
+---
+
+## Uso de IA para programar
+
+Vocês **podem e devem** usar IA (ChatGPT, Gemini, Claude, Copilot etc.) para escrever código. O foco da avaliação é o produto funcionando e o **entendimento** do que foi construído. As regras:
+
+1. **Entenda o que entrou no projeto.** Na demo, vou sortear um integrante para explicar um trecho do código. "A IA que escreveu" não é resposta.
+2. **Nunca cole a chave de API** em prompts, chats ou prints. Mandem só o trecho do código, sem o `.env`.
+3. **Escrevam e revisem o *system prompt* do app.** Ele é a parte do projeto que mais depende do entendimento do grupo.
+4. **Desconfie do que a IA gera.** Rodem, leiam e testem. Confiram com o que era realmente esperado, também vou conferir.
+5. **Estrutura boa.** O código deve ser feito com boas práticas, organizados devidamente em funções.
+
+Dicas para render mais:
+- Peça **uma camada por vez** (primeiro os dados, depois a IA, depois a interface) e funções pequenas.
+- Cole o **erro completo** quando algo quebrar.
+- Informe a estrutura de arquivos sugerida abaixo, para o código vir organizado.
+
+---
+
+**Estrutura sugerida de arquivos:**
+
+```
+meu-projeto/
+├── app.py            # interface Streamlit
+├── pipeline.py       # funções de Pandas e de IA
+├── schemas.py        # modelos Pydantic (Modelos 1 e 2)
+├── avaliacao.py      # roda o gabarito e calcula o acerto
+├── requirements.txt
+├── .gitignore        # inclui .env
+└── README.md
+```
+
+---
+
+## Apresentação
+
+Pra mostrar o projeto, quero que vocês expliquem o que fizeram, mostrando uma demo na hora.
+
+---
+
+**Entrega:** link do repositório público no GitHub.
+
