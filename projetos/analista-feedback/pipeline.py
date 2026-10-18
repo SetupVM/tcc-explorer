@@ -162,5 +162,108 @@ def rank_problems_by_category(aspects: pd.DataFrame) -> pd.DataFrame:
     ).reset_index(drop=True)
 
 
-# API-dependent functions are added in the next task; keeping pure data operations
-# available here lets unit tests run without network access.
+FEEDBACK_SYSTEM_PROMPT = """Você é um classificador de avaliações de clientes.
+Analise o comentário e devolva somente a estrutura solicitada.
+Use sentimento_geral e sentimento como positivo, neutro ou negativo.
+Use apenas estes aspectos: entrega, preço, qualidade, atendimento ou outro.
+Informe idioma como código curto (por exemplo, pt ou en).
+Marque urgente apenas quando houver risco ou necessidade imediata de ação.
+Interprete ironia pelo sentido do comentário, não apenas pela nota.
+Se não houver aspecto identificável, devolva uma lista vazia.
+"""
+
+ANALYSIS_COLUMNS = ["sentimento_geral", "idioma", "urgente", "aspectos", "erro_analise"]
+
+
+def analyze_comment(
+    comment: str,
+    client: Any,
+    model: str,
+    max_attempts: int = 2,
+) -> FeedbackAnalysis:
+    """Classify one comment with Pydantic Structured Outputs and bounded retries."""
+    if max_attempts < 1:
+        raise ValueError("max_attempts precisa ser pelo menos 1")
+    if not comment or not comment.strip():
+        raise ValueError("comentário vazio")
+
+    last_error: Exception | None = None
+    for _ in range(max_attempts):
+        try:
+            response = client.beta.chat.completions.parse(
+                model=model,
+                temperature=0.1,
+                max_tokens=350,
+                response_format=FeedbackAnalysis,
+                messages=[
+                    {"role": "system", "content": FEEDBACK_SYSTEM_PROMPT},
+                    {"role": "user", "content": comment},
+                ],
+            )
+            parsed = response.choices[0].message.parsed
+            if parsed is None:
+                raise ValueError("a API não retornou uma análise estruturada")
+            if isinstance(parsed, FeedbackAnalysis):
+                return parsed
+            return FeedbackAnalysis.model_validate(parsed)
+        except Exception as error:
+            last_error = error
+
+    raise ValueError(f"falha ao analisar comentário após {max_attempts} tentativas") from last_error
+
+
+def enrich_reviews(
+    df: pd.DataFrame,
+    client: Any,
+    model: str,
+    max_attempts: int = 2,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Analyze each non-empty comment and isolate invalid rows in an error table."""
+    if "comentario" not in df.columns:
+        raise ValueError("coluna obrigatória ausente: comentario")
+    enriched_rows: list[dict[str, Any]] = []
+    failures: list[dict[str, Any]] = []
+    for _, row in df.iterrows():
+        record = row.to_dict()
+        comment = str(record.get("comentario") or "")
+        if not comment.strip():
+            failures.append(
+                {
+                    "id": record.get("id"),
+                    "comentario": comment,
+                    "erro": "comentário vazio; chamada à API ignorada",
+                }
+            )
+            continue
+        try:
+            analysis = analyze_comment(comment, client, model, max_attempts=max_attempts)
+            record.update(analysis.model_dump())
+            record["aspectos"] = [aspect.model_dump() for aspect in analysis.aspectos]
+            record["erro_analise"] = ""
+            enriched_rows.append(record)
+        except Exception as error:
+            failures.append(
+                {
+                    "id": record.get("id"),
+                    "comentario": comment,
+                    "erro": str(error),
+                }
+            )
+    output_columns = list(dict.fromkeys([*df.columns, *ANALYSIS_COLUMNS]))
+    enriched = pd.DataFrame(enriched_rows, columns=output_columns)
+    errors = pd.DataFrame(failures, columns=["id", "comentario", "erro"])
+    return enriched, errors
+
+
+def find_rating_conflicts(df: pd.DataFrame) -> pd.DataFrame:
+    """Find rows where numeric rating and extracted overall sentiment disagree."""
+    required = {"nota", "sentimento_geral"}
+    missing = required.difference(df.columns)
+    if missing:
+        raise ValueError(f"colunas obrigatórias ausentes: {', '.join(sorted(missing))}")
+    ratings = pd.to_numeric(df["nota"], errors="coerce")
+    sentiment = df["sentimento_geral"]
+    conflict = ((ratings >= 4) & sentiment.eq("negativo")) | (
+        (ratings <= 2) & sentiment.eq("positivo")
+    )
+    return df.loc[conflict.fillna(False)].copy()
