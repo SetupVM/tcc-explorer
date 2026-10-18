@@ -8,7 +8,14 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from schemas import Receipt, ReceiptItem
-from pipeline import parse_brl_amount, process_files, validate_receipt
+from pipeline import (
+    build_analytics,
+    extract_receipt,
+    mark_duplicates,
+    parse_brl_amount,
+    process_files,
+    validate_receipt,
+)
 
 
 class ReceiptValidationTests(unittest.TestCase):
@@ -79,6 +86,50 @@ class ReceiptValidationTests(unittest.TestCase):
             read_receipt_text(
                 "recibo_sem_texto.pdf", (data / "recibo_sem_texto.pdf").read_bytes()
             )
+
+
+from types import SimpleNamespace
+
+
+class FakeStructuredCompletions:
+    def __init__(self, parsed):
+        self.parsed = parsed
+        self.kwargs = None
+
+    def parse(self, **kwargs):
+        self.kwargs = kwargs
+        message = SimpleNamespace(parsed=self.parsed)
+        return SimpleNamespace(choices=[SimpleNamespace(message=message)])
+
+
+class ExpenseAnalyticsTests(unittest.TestCase):
+    def test_extract_receipt_uses_pydantic_structured_output(self):
+        expected = Receipt(
+            estabelecimento="Mercado",
+            data="2025-01-10",
+            itens=[ReceiptItem(descricao="Arroz", quantidade=1, valor=Decimal("10.00"))],
+            valor_total=Decimal("10.00"),
+            categoria="alimentação",
+        )
+        completions = FakeStructuredCompletions(expected)
+        client = SimpleNamespace(beta=SimpleNamespace(chat=SimpleNamespace(completions=completions)))
+        result = extract_receipt("texto de recibo", client, "fake")
+        self.assertEqual(result, expected)
+        self.assertIs(completions.kwargs["response_format"], Receipt)
+        self.assertEqual(completions.kwargs["temperature"], 0.1)
+        self.assertEqual(completions.kwargs["max_tokens"], 700)
+
+    def test_duplicate_key_and_month_category_groupby(self):
+        rows = pd.DataFrame([
+            {"estabelecimento": "Mercado Bom Preco", "data": "2025-01-10", "valor_total": Decimal("36.50"), "categoria": "alimentação", "itens": [{"descricao": "Arroz", "quantidade": 2, "valor": Decimal("28.00")}]},
+            {"estabelecimento": "mercado bom preco", "data": "2025-01-10", "valor_total": Decimal("36.50"), "categoria": "alimentação", "itens": [{"descricao": "Arroz", "quantidade": 2, "valor": Decimal("28.00")}]},
+        ])
+        marked, monthly, item_ranking = build_analytics(rows)
+        self.assertEqual(marked["duplicado"].tolist(), [False, True])
+        self.assertEqual(monthly.loc[0, "mes"], "2025-01")
+        self.assertEqual(float(monthly.loc[0, "valor_total"]), 36.50)
+        self.assertEqual(item_ranking.loc[0, "descricao"], "Arroz")
+        self.assertEqual(float(item_ranking.loc[0, "valor"]), 28.00)
 
 
 if __name__ == "__main__":
