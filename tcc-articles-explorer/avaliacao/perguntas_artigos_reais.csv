@@ -1,0 +1,10 @@
+pergunta,titulo_contem,trecho_contem,deve_responder
+Quantas camadas idênticas tem o encoder do Transformer?,Attention Is All You Need,N = 6 identical layers,sim
+Qual otimizador foi usado no treinamento do Transformer?,Attention Is All You Need,Adam optimizer,sim
+Qual BLEU o Transformer grande alcançou na tradução inglês-alemão?,Attention Is All You Need,28.4,sim
+Quanto tempo levou o treinamento do modelo grande do Transformer?,Attention Is All You Need,3.5 days,sim
+Como a atenção por produto escalar é calculada?,Attention Is All You Need,softmax,sim
+Quantos artigos compõem o benchmark SEER-Repro?,REPRODUCIBILITY,20 published SEER studies,sim
+Qual a principal causa das alegações que não foram reproduzidas?,REPRODUCIBILITY,Data issues,sim
+Os autores avaliaram o Transformer em reconhecimento de fala?,,,não
+Quanto custou em dólares reproduzir os artigos do SEER?,,,não

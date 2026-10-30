@@ -1,0 +1,27 @@
+# Explorador de Artigos — dependências diretas (versões testadas em Python 3.12, macOS arm64)
+# Ambiente completo testado: requirements-lock.txt
+
+# Interface e dados
+streamlit==1.65.0
+pandas==3.0.6
+python-dotenv==1.2.4
+pydantic==2.14.1
+pillow==12.3.0
+
+# Extração de PDFs
+docling==2.133.0
+pypdfium2==5.14.0
+# OCR usado pelo Docling. A 3.10.0 é incompatível com o docling 2.133
+# (falta PP_OCRV6_LANGS) e o OCR fica desligado sem aviso.
+rapidocr==3.9.2
+# Segunda leitura das fórmulas (Dolphin-1.5) e validação do LaTeX
+transformers==5.20.2
+torch==2.14.1
+latex2mathml==3.81.1
+
+# Busca semântica (RAG)
+chromadb==1.5.9
+sentence-transformers==6.1.0
+
+# LLM
+openai==3.24.0

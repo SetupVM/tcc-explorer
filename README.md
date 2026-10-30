@@ -1,3 +1,15 @@
+# TCC Explorer — projeto final
+
+O aplicativo desenvolvido para a entrega está em **[tcc-articles-explorer](tcc-articles-explorer/)**.
+Consulte o **[README do aplicativo](tcc-articles-explorer/README.md#primeira-execução-após-clonar)**
+para criar o ambiente, instalar as dependências, baixar os modelos e importar um PDF.
+O banco vetorial é gerado localmente pela aplicação; não é necessário um banco pronto.
+
+Os materiais abaixo foram preservados do repositório do professor para contextualizar o curso.
+Use o `requirements.txt` dentro de `tcc-articles-explorer/` para executar o projeto final.
+
+---
+
 # IA na Prática: Do Zero à Automação Corporativa
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)

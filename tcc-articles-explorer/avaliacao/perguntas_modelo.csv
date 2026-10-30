@@ -1,0 +1,3 @@
+pergunta,titulo_contem,trecho_contem,deve_responder
+"Substitua por uma pergunta cuja resposta você conferiu no artigo","parte do título do artigo","frase curta do trecho que responde (em inglês, como no PDF)",sim
+"Inclua ao menos uma pergunta que NÃO tem resposta nos seus artigos",,,não

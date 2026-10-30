@@ -1,0 +1,10 @@
+[server]
+# Limite do Streamlit por arquivo (MB). O limite do app vem de MAX_TAMANHO_MB no .env.
+maxUploadSize = 200
+
+[browser]
+# App local: não envia estatísticas de uso para o Streamlit
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1D70B8"

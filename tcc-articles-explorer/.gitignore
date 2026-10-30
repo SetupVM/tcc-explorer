@@ -1,0 +1,30 @@
+# Credenciais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Ambiente virtual e caches do Python
+.venv/
+.venv-mineru/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dados locais: PDFs, extrações, imagens, catálogo e índice do ChromaDB
+dados/
+*.pdf
+# PDFs de entrada escolhidos para a demonstração
+!/artigos/*.pdf
+avaliacao/resultado_*.csv
+notebooks/testes_extracao/
+
+# Modelos baixados (se alguém apontar o cache para dentro do projeto)
+modelos/
+.cache/
+*.safetensors
+*.onnx
+
+# Sistema
+.DS_Store

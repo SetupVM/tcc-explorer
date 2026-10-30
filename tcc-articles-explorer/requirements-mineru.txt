@@ -1,0 +1,3 @@
+# Instale APENAS no ambiente separado .venv-mineru (não na .venv do app).
+mineru==4.0.12
+docvortex==0.6.1

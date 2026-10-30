@@ -1,0 +1,10 @@
+pergunta,titulo_contem,trecho_contem,deve_responder
+Qual conjunto de dados os autores usaram no estudo de recuperação híbrida?,Hybrid Retrieval,MauaQA dataset,sim
+Quais limitações os autores do estudo de recuperação relatam?,Hybrid Retrieval,only covers questions written in English,sim
+Como o score híbrido é calculado?,Hybrid Retrieval,where w is a weight,sim
+Qual retriever teve o melhor Recall@5?,Hybrid Retrieval,0.78,sim
+Qual a latência do MobileNetV3?,Lightweight,38,sim
+Que aumento de dados foi usado no treinamento das CNNs?,Lightweight,color jitter,sim
+Quais limitações o estudo sobre folhas de tomate relata?,Lightweight,daylight,sim
+Quanto custou em dólares treinar os modelos?,,,não
+Os autores avaliaram o método em imagens médicas de raio-X?,,,não

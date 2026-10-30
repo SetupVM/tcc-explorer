@@ -1,0 +1,5 @@
+# Testes (pytest) e geração dos PDFs sintéticos usados nos testes
+-r requirements.txt
+pytest==9.1.1
+pypdf==6.1.1
+reportlab==4.4.4
